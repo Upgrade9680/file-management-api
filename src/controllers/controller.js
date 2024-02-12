@@ -1,4 +1,4 @@
-const uploadFile = require("../middleware/upload");
+const uploadFile = require("../middleware/middleware");
 const fs = require("fs");
 
 

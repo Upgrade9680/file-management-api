@@ -10,7 +10,7 @@ var corsOptions = {
 
 app.use(cors(corsOptions));
 
-const initRoutes = require("./routes/index");
+const initRoutes = require("./routes/route");
 
 app.use(express.urlencoded({ extended: true }));
 initRoutes(app);
